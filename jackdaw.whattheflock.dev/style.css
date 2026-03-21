@@ -1,0 +1,22 @@
+@import url('../shared/base.css');
+
+/* Jackdaw feature icon colors */
+.feature-icon-monitor {
+  background: linear-gradient(135deg, #34d39915, #34d39930);
+  color: var(--primary);
+}
+
+.feature-icon-terminal {
+  background: linear-gradient(135deg, #818cf815, #818cf830);
+  color: #818cf8;
+}
+
+.feature-icon-tray {
+  background: linear-gradient(135deg, #f59e0b15, #f59e0b30);
+  color: var(--accent);
+}
+
+.feature-icon-setup {
+  background: linear-gradient(135deg, #f472b615, #f472b630);
+  color: #f472b6;
+}

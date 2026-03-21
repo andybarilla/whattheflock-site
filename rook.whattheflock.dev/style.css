@@ -1,0 +1,30 @@
+@import url('../shared/base.css');
+
+/* Rook feature icon colors */
+.feature-icon-ssl {
+  background: linear-gradient(135deg, #34d39915, #34d39930);
+  color: var(--primary);
+}
+
+.feature-icon-php {
+  background: linear-gradient(135deg, #818cf815, #818cf830);
+  color: #818cf8;
+}
+
+.feature-icon-db {
+  background: linear-gradient(135deg, #f59e0b15, #f59e0b30);
+  color: var(--accent);
+}
+
+.feature-icon-plugin {
+  background: linear-gradient(135deg, #f472b615, #f472b630);
+  color: #f472b6;
+}
+
+.herd-note {
+  margin-top: 48px;
+  font-size: 1.1rem;
+  color: var(--text-dim);
+  font-style: italic;
+  font-family: var(--font-display);
+}
