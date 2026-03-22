@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-  font-size: clamp(3rem, 8vw, 5rem);
+  font-size: clamp(2.4rem, 6vw, 4rem);
   margin-bottom: 20px;
 }
 
@@ -40,14 +40,15 @@ h1 {
   align-items: center;
   gap: 8px;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: var(--primary);
   background: var(--primary-dim);
   border: 1px solid var(--primary-mid);
   padding: 6px 16px;
-  border-radius: 100px;
+  border-radius: 2px;
   margin-bottom: 32px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .badge-dot {
@@ -79,7 +80,7 @@ h1 {
 .orb-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, #34d39915, transparent 70%);
+  background: radial-gradient(circle, #ff2d7810, transparent 70%);
   top: -10%;
   left: -5%;
   animation: float 12s ease-in-out infinite;
@@ -88,7 +89,7 @@ h1 {
 .orb-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, #f59e0b10, transparent 70%);
+  background: radial-gradient(circle, #ff2d7808, transparent 70%);
   bottom: -10%;
   right: -5%;
   animation: float 12s ease-in-out infinite reverse;
@@ -109,31 +110,30 @@ h1 {
   gap: 24px;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 2px;
   padding: 32px;
   text-decoration: none;
   color: var(--text);
-  transition: all 0.3s ease;
+  transition: all 0.15s ease;
 }
 
 .tool-card:hover {
-  border-color: var(--border-glow);
+  border-color: var(--primary-mid);
   background: var(--bg-card-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px #ff2d7810;
 }
 
 .tool-icon {
-  width: 64px;
-  height: 64px;
-  border-radius: 14px;
+  width: 56px;
+  height: 56px;
+  border-radius: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--font-mono);
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   background: var(--primary);
   color: var(--bg-deep);
 }
@@ -144,9 +144,9 @@ h1 {
 
 .tool-content h2 {
   font-family: var(--font-display);
-  font-size: 1.75rem;
-  font-weight: 400;
-  margin-bottom: 2px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 4px;
   line-height: 1.2;
 }
 
@@ -174,13 +174,14 @@ h1 {
 
 .tool-tech span {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: var(--text-muted);
   background: var(--bg-deep);
   border: 1px solid var(--border);
   padding: 3px 10px;
-  border-radius: 100px;
+  border-radius: 2px;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .tool-link {

@@ -2,28 +2,28 @@
 
 /* Rook feature icon colors */
 .feature-icon-ssl {
-  background: linear-gradient(135deg, #34d39915, #34d39930);
+  background: linear-gradient(135deg, #ff2d7815, #ff2d7830);
   color: var(--primary);
 }
 
 .feature-icon-php {
-  background: linear-gradient(135deg, #818cf815, #818cf830);
-  color: #818cf8;
-}
-
-.feature-icon-db {
-  background: linear-gradient(135deg, #f59e0b15, #f59e0b30);
+  background: linear-gradient(135deg, #ff6b9d15, #ff6b9d30);
   color: var(--accent);
 }
 
+.feature-icon-db {
+  background: linear-gradient(135deg, #d4d4d415, #d4d4d430);
+  color: var(--text);
+}
+
 .feature-icon-plugin {
-  background: linear-gradient(135deg, #f472b615, #f472b630);
-  color: #f472b6;
+  background: linear-gradient(135deg, #ff2d7815, #ff2d7830);
+  color: var(--primary);
 }
 
 .herd-note {
   margin-top: 48px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-dim);
   font-style: italic;
   font-family: var(--font-display);
