@@ -572,6 +572,59 @@ h1 em {
   margin-top: 12px;
 }
 
+/* ---- Install ---- */
+.install {
+  background: var(--bg-dark);
+}
+
+.install-inner {
+  text-align: center;
+}
+
+.install-inner .section-desc {
+  margin: 0 auto;
+}
+
+.install-code {
+  margin: 40px auto 0;
+  max-width: 640px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 20px 24px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-align: left;
+  position: relative;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.install-code .install-prompt {
+  color: var(--text-dim);
+  user-select: none;
+}
+
+.install-note {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-weight: 300;
+}
+
+.install-note a {
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.install-note a:hover {
+  color: var(--primary);
+  border-color: var(--primary-mid);
+}
+
 /* ---- Tech / Platforms ---- */
 .tech {
   background: var(--bg-dark);
