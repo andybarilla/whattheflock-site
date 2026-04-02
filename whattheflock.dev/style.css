@@ -13,7 +13,7 @@ body {
 .landing {
   position: relative;
   z-index: 1;
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   padding: 80px 24px;
 }
@@ -22,12 +22,34 @@ body {
 .hero {
   min-height: auto;
   padding: 0;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
   overflow: visible;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
+  text-align: left;
+  gap: 48px;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.raven-hero {
+  flex: 0 0 360px;
+  max-width: 360px;
+  opacity: 0.12;
+  filter: brightness(0) invert(1);
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  pointer-events: none;
+}
+
+.tools {
+  max-width: 800px;
 }
 
 h1 {
@@ -228,7 +250,19 @@ footer a:hover {
   }
 
   .hero {
+    flex-direction: column;
+    text-align: center;
     margin-bottom: 48px;
+  }
+
+  .hero-text {
+    align-items: center;
+  }
+
+  .raven-hero {
+    max-width: 200px;
+    flex: none;
+    order: -1;
   }
 
   .tool-card {
